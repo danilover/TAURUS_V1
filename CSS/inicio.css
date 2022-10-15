@@ -1,0 +1,381 @@
+/* SELECTOR UNIVERSAL */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+*
+
+/* QUITAR SCROLL O BARRA DE NAVEGACION VERTICAL */
+body {
+    overflow-x: hidden;
+}
+
+/* BOTON CERRAR SESION */
+.cerrar_sesion {
+    display: block;
+    width: 90px;
+    font-family: 'Impact';
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    padding: 8px 100px;
+    padding-right: 50px;
+    padding-left: 30px;
+    text-decoration: none;
+    background: transparent;
+    margin: 1px 1200px;
+    margin-top: -10px;
+    background-image: url(../CSS/icono_cerrar_sesion.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 115px
+}
+
+/* ANIMACION DEL BOTON CERRAR SESION AL PASAR EL CURSOR */
+.cerrar_sesion:hover {
+    color: blue;
+}
+
+/* ANIMACION DEL BOTON CERRAR SESION AL DAR CLIK  */
+.cerrar_sesion:active {
+    color: #86ed11;
+}
+
+/* BOTON PERFIL USUARIO */
+.perfil_usu {
+    display: block;
+    width: 120px;
+    height: 180px;
+    font-family: 'Impact';
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    padding: 5px 20px;
+    padding-left: 150px;
+    text-decoration: none;
+    background-color: transparent;
+    margin: -60px -5px;
+    padding-top: 30px;
+    background-image: url(../CSS/icono_perfil_usuario.webp);
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: 12px -6px
+}
+
+/* ANIMACION DEL BOTON PERFIL USUARIO AL PASAR EL CURSOR */
+.perfil_usu:hover {
+    color: blue;
+}
+
+/* ANIMACION DEL BOTON PERFIL USUARIO AL DAR CLIK  */
+.perfil_usu:active {
+    color: #86ed11;
+}
+
+/* IMAGEN PERFIL USUARIO */
+.imagen_usu {
+    width: 170px;
+    margin-top: -100px;
+}
+
+/* FORMULARIO MENU */
+.menu_navegacion {
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    width: 30%;
+    height: 590px;
+    border: 10px solid #18eedb;
+    margin: auto auto;
+    text-transform: uppercase;
+    box-shadow: inset 0 0 15px black, 0 0 50px black, 0 0 50px #18eedb, 0 0 50px #18eedb, 0 0 50px #18eedb;
+}
+
+/* BOTON PROVEEDORES */
+.proveedores {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    width: 280px;
+    padding-right: 10px;
+    text-align: right;
+    display: block;
+    margin: 30px 15%;
+    border-radius: 5%;
+    background-image: url(../CSS/icono_proveedores.webp);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 6px;
+    position: relative;
+}
+
+/* ANIMACION AL PASAR EL CURSOR BOTON PROVEEDORES */
+.proveedores:hover {
+    color: blue;
+}
+
+/* ANIMACION AL DAR CLICK BOTON PROVEEDORES */
+.proveedores:active {
+    color: #86ed11;
+}
+
+/* ANIMACION DEL BOTON PROVEEDORES TRANSICION */
+.proveedores::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: blue;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s;
+}
+
+/* TAMAÑO DEL EFECTO DEL BORDE BOTON PROVEEDORES */
+.proveedores:hover::before {
+    width: 100%;
+}
+
+/* POSICION DEL EFECTO DEL BORDE BOTON PROVEEDORES */
+.proveedores::before {
+    left: 50%;
+}
+
+/* EFECTO DESDE EL CENTRO A LOS LADOS BOTON PROEVEEDORES */
+.proveedores:hover::before {
+    left: 0;
+}
+
+/* BOTON PRODUCTOS */
+.productos {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    width: 250px;
+    height: 40px;
+    text-align: right;
+    padding-right: 10px;
+    display: block;
+    margin: 30px 19%;
+    background-image: url(../CSS/icono_productos.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 8px -9px;
+    position: relative;
+}
+
+/* ANIMACION AL PASAR EL CURSOR BOTON PRODUCTOS */
+.productos:hover {
+    color: blue;
+}
+
+/* ANIMACION AL DAR CLICK BOTON PRODUCTOS */
+.productos:active {
+    color: #86ed11;
+}
+
+/* ANIMACION DEL BOTON PRODUCTOS TRANSICION */
+.productos::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: blue;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s;
+}
+
+/* TAMAÑO DEL EFECTO DEL BORDE BOTON PRODUCTOS */
+.productos:hover::before {
+    width: 100%;
+}
+
+/* POSICION DEL EFECTO DEL BORDE BOTON PRODUCTOS */
+.productos::before {
+    left: 50%;
+}
+
+/* EFECTO DESDE EL CENTRO A LOS LADOS BOTON PRODUCTOS */
+.productos:hover::before {
+    left: 0;
+}
+
+/* BOTON COMPRAS */
+.compras {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    width: 220px;
+    text-align: right;
+    display: block;
+    margin: 30px 21%;
+    padding-top: 15px;
+    padding-right: 10px;
+    background-image: url(../CSS/icono_compras.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    position: relative;
+}
+
+/* ANIMACION AL PASAR EL CURSOR BOTON COMPRAS */
+.compras:hover {
+    color: blue;
+}
+
+/* ANIMACION AL DAR CLICK BOTON COMPRAS */
+.compras:active {
+    color: #86ed11;
+}
+
+/* ANIMACION DEL BOTON COMPRAS TRANSICION */
+.compras::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: blue;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s;
+}
+
+/* TAMAÑO DEL EFECTO DEL BORDE BOTON COMPRAS */
+.compras:hover::before {
+    width: 100%;
+}
+
+/* POSICION DEL EFECTO DEL BORDE BOTON COMPRAS */
+.compras::before {
+    left: 50%;
+}
+
+/* EFECTO DESDE EL CENTRO A LOS LADOS BOTON COMPRAS */
+.compras:hover::before {
+    left: 0;
+}
+
+/* BOTON VENTAS */
+.ventas {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    width: 185px;
+    text-align: right;
+    display: block;
+    margin: 30px 25%;
+    padding-top: 15px;
+    padding-right: 10px;
+    background-image: url(../CSS/icono_ventas.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 13px;
+    position: relative;
+}
+
+/* ANIMACION AL PASAR EL CURSOR BOTON VENTAS */
+.ventas:hover {
+    color: blue;
+}
+
+/* ANIMACION AL DAR CLICK BOTON VENTAS */
+.ventas:active {
+    color: #86ed11;
+}
+
+/* ANIMACION DEL BOTON VENTAS TRANSICION */
+.ventas::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: blue;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s;
+}
+
+/* TAMAÑO DEL EFECTO DEL BORDE BOTON VENTAS */
+.ventas:hover::before {
+    width: 100%;
+}
+
+/* POSICION DEL EFECTO DEL BORDE BOTON VENTAS */
+.ventas::before {
+    left: 50%;
+}
+
+/* EFECTO DESDE EL CENTRO A LOS LADOS BOTON VENTAS */
+.ventas:hover::before {
+    left: 0;
+}
+
+/* BOTON INVENTARIO */
+.inventario {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    width: 230px;
+    text-align: right;
+    display: block;
+    margin: 30px 21%;
+    padding-right: 10px;
+    background-image: url(../CSS/icono_inventario.webp);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: 7px -2px;
+    position: relative;
+}
+
+/* ANIMACION AL PASAR EL CURSOR BOTON INVENTARIO */
+.inventario:hover {
+    color: blue;
+}
+
+/* ANIMACION AL DAR CLICK BOTON INVENTARIO */
+.inventario:active {
+    color: #86ed11;
+}
+
+/* ANIMACION DEL BOTON INVENTARIO TRANSICION */
+.inventario::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: blue;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s;
+}
+
+/* TAMAÑO DEL EFECTO DEL BORDE BOTON INVENTARIO */
+.inventario:hover::before {
+    width: 100%;
+}
+
+/* POSICION DEL EFECTO DEL BORDE BOTON INVENTARIO */
+.inventario::before {
+    left: 50%;
+}
+
+/* EFECTO DESDE EL CENTRO A LOS LADOS BOTON INVENTARIO */
+.inventario:hover::before {
+    left: 0;
+}
+
+/* LOGO SOFTWARE */
+.logo {
+    height: 100px;
+    width: 130px;
+    margin: 0px 45%;
+    margin-top: 40px;
+}

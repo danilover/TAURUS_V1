@@ -1,0 +1,199 @@
+/* SELECTOR UNIVERSAL */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+*
+
+/* QUITAR SCROLL O BARRA DE NAVEGACION VERTICAL */
+body {
+    overflow-x: hidden;
+}
+
+/* NOMBRE EMPRESA */
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Impact';
+    font-size: 90px;
+    margin-top: auto;
+    text-shadow: #583cf6 3px 3px;
+}
+
+/* FORMULARIO */
+.formulario {
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    background-color: #18eedb;
+    padding: 50px;
+    width: 350px;
+    height: 510px;
+    margin: 20px 450px;
+    border: 4px solid black;
+    margin-top: 30px;
+}
+
+/* TEXTO INGRESAR AL SISTEMA */
+h2 {
+    font-size: 40px;
+    font-family: 'Impact';
+    text-align: center;
+    margin-top: -12px;
+}
+
+/* TEXTO USUARIO */
+.username {
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 70%;
+    height: 25px;
+    font-size: 15px;
+    outline: none;
+    background-image: url(../CSS/icono_user.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 4px
+}
+
+/* TEXTO CONTRASEÑA */
+.contraseña {
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 70%;
+    height: 25px;
+    font-size: 15px;
+    outline: none;
+    background-image: url(../CSS/icono_password.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 4px
+}
+
+/* VER CONTRASEÑA */
+.ver {
+    width: 30px;
+    margin: 0px 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+/* TEXTO SELECCIONAR CARGO */
+.texcargos {
+    color: black;
+    font-size: 23px;
+    padding-left: 30px;
+    text-align: center;
+    background-image: url(../CSS/icono_cargos.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 1px
+}
+
+/* TEXTO LISTA DESPLEGABLE */
+.cargos {
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 210px;
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* BOTON INICIAR */
+.boton {
+    display: block;
+    width: 70px;
+    cursor: pointer;
+    font-family: 'Impact';
+    font-size: 25px;
+    color: black;
+    border-radius: 15px;
+    padding: 10px 30px;
+    padding-left: 10px;
+    text-decoration: none;
+    background: #356f75;
+    border: 2px solid black;
+    margin: 1px 120px;
+    margin-top: -10px;
+    background-image: url(../CSS/icono_acceder.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 80px
+}
+
+/* ANIMACION DEL BOTON INICIAR AL PASAR EL CURSOR */
+.boton:hover {
+    background-color: blue;
+    border: 2px solid black;
+    color: black;
+    box-shadow: inset 0 0 10px black, 0 0 50px #ff0080, 0 0 50px #ff0080;
+}
+
+/* ANIMACION DEL BOTON INICIAR AL DAR CLIK */
+.boton:active {
+    background-color: #86ed11;
+    color: black;
+    box-shadow: inset 0 0 10px black, 0 0 50px #ff0080, 0 0 50px #ff0080;
+}
+
+/* LINK OLVIDO CONTRASEÑA */
+.olvidocon {
+    color: black;
+    font-size: 19px;
+    padding-left: 35px;
+    text-align: center;
+    background-image: url(../CSS/icono_recoverypass.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: -4px
+}
+
+/* BOTON RESGISTRARSE */
+.registrarse {
+    display: block;
+    background-color: #356f75;
+    color: black;
+    font-family: 'Impact';
+    height: 36px;
+    width: 45%;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin: 0px 95px;
+    border: 2px solid black;
+    text-decoration: none;
+    text-align: left;
+    padding-top: 10px;
+    font-size: 23px;
+    background-image: url(../CSS/icono_registrar.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 130px
+}
+
+/* ANIMACION COLOR BOTON REGISTRARSE AL PASAR EL CURSOR */
+.registrarse:hover {
+    background-color: blue;
+    border: 2px solid black;
+    color: black;
+    box-shadow: inset 0 0 10px black, 0 0 50px #ff0080, 0 0 50px #ff0080;
+}
+
+/* ANIMACION BOTON REGISTRARSE AL DAR CLICK */
+.registrarse:active {
+    background-color: #86ed11;
+    color: black;
+    box-shadow: inset 0 0 10px black, 0 0 50px #ff0080, 0 0 50px #ff0080;
+}
+
+/* LOGO SOFTWARE */
+.logo {
+    height: 100px;
+    width: 130px;
+    margin: 0px 120px;
+}

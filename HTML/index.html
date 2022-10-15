@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITULO PESTAÑA -->
+    <title>INICIAR SESION</title>
+
+    <!-- LINK INICIO_SESION_REGISTRARSE CSS -->
+    <link rel="stylesheet" href="../CSS/Inicio_Sesion_Registrarse.css">
+
+    <!-- CREACION LOGO PESTAÑA NAVEGADOR -->
+    <link rel="shortcut icon" href="../CSS/Logo_Software.jpg">
+</head>
+
+<body>
+
+    <!-- NOMBRE EMPRESA -->
+    <h1>Electronica Universal GYM</h1>
+
+    <!-- CREACION FORMULARIO INICIO SESION -->
+    <div class="formulario">
+        <h2>Ingresar al Sistema</h2>
+        <br><br>
+        <form autocomplete="off">
+
+            <!-- CREACION CONTENEDOR USUARIO -->
+            <div><input type="text" class="username" placeholder="Usuario" required maxlength="12"></div>
+            <br><br>
+
+            <!-- CREACION CONTENEDOR CONTRASEÑA -->
+            <div><input type="password" class="contraseña" placeholder="Contraseña" required maxlength="15"></div>
+            <br><br>
+
+            <!-- CREACION TEXTO CARGOS -->
+            <label for="" class="texcargos">Seleccionar Cargo</label>
+            <br><br>
+
+            <!-- CREACION LISTA CARGOS -->
+            <select class="cargos">
+                <option value="">Gerente</option>
+                <option value="">Secretario</option>
+                <option value="">Jefe de bodega</option>
+                <option value="">Vendedor</option>
+            </select>
+            <br><br><br>
+
+            <!-- RECORDAR CONTRASEÑA -->
+            <div><input type="checkbox" id="check"> <label class="recordar_con">Recordar contraseña</label></div>
+            <br><br><br>
+
+            <!-- BOTON INICIAR -->
+            <div>
+                <a class="boton" href="../HTML/inicio.html">Iniciar</a>
+            </div>
+            <br><br><br>
+
+            <!-- LINK OLVIDAR CONTRASEÑA -->
+            <a class="olvidocon" href="../HTML/olvido_la_contraseña.html">Olvido la contraseña?</a>
+            <br><br><br><br>
+
+            <!-- BOTON REGISTRARSE -->
+            <div>
+                <a href="../HTML/Registrarse.html" class="registrarse">Registrarse</a>
+            </div>
+        </form>
+    </div>
+
+    <!-- LOGO SOFTWARE -->
+    <img class="logo" src="../CSS/Logo_Software.jpg" alt="Logo TAURUS_V1">
+</body>
+
+</html>

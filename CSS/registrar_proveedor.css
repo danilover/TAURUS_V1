@@ -1,0 +1,166 @@
+* SELECTOR UNIVERSAL */ * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+*
+
+/* QUITAR SCROLL O BARRA DE NAVEGACION VERTICAL */
+body {
+    overflow-x: hidden;
+}
+
+/* FLECHA ATRAS */
+.flecha {
+    display: block;
+    width: 90px;
+    font-family: 'Impact';
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding: 8px 30px;
+    padding-right: 5px;
+    text-decoration: none;
+    background: transparent;
+    margin: 1px 1px;
+    margin-top: -10px;
+    background-image: url(../CSS/icono_flecha_atras.webp);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 1px;
+}
+
+/* TEXTO REGISTRAR PROVEEDORES */
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Impact';
+    margin-top: auto;
+}
+
+/* FORMULARIO REGISTRO PROVEEDORES */
+.formulario {
+    display: block;
+    border: 4px solid black;
+    height: 335px;
+    width: 400px;
+    text-align: center;
+    background-color: #18eedb;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 20px 410px;
+}
+
+/* TEXTO NIT */
+.t_nit {
+    font-size: 25px;
+    margin-right: 150px;
+}
+
+/* INPUT NIT */
+.nit {
+    width: 176px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 15px;
+    outline: none;
+}
+
+/* TEXTO NOMBRE PROVEEDOR */
+.t_nombre {
+    font-size: 25px;
+    margin-right: 100px;
+}
+
+/* INPUT NOMBRE PROVEEDOR */
+.nombre {
+    width: 176px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 15px;
+    outline: none;
+}
+
+/* TEXTO DIRECCION PROVEEDOR */
+.t_direccion {
+    font-size: 25px;
+    margin-right: 90px;
+}
+
+/* INPUT DIRECCION PROVEEDOR */
+.direccion {
+    width: 176px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 15px;
+    outline: none;
+}
+
+/* TEXTO TELEFONO PROVEEDOR */
+.t_telefono {
+    font-size: 25px;
+    margin-right: 105px;
+}
+
+/* INPUT TELEFONO PROVEEDOR */
+.telefono {
+    width: 176px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 15px;
+    outline: none;
+}
+
+/* BOTON GUARDAR */
+.guardar {
+    display: block;
+    width: 195px;
+    font-family: 'Impact';
+    font-size: 25px;
+    color: black;
+    border-radius: 15px;
+    padding: 7px;
+    padding-left: 10px;
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+    margin: 0px 120px;
+    background: #356f75;
+    border: 2px solid black;
+    background-image: url(../CSS/icono_crear_usuario.webp);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 150px center;
+}
+
+/* ANIMACION DEL BOTON GUARDAR PROVEEDOR AL PASAR EL CURSOR */
+.guardar:hover {
+    background-color: blue;
+    border: 2px solid black;
+    color: black;
+    box-shadow: inset 0 0 10px black, 0 0 50px #ff0080, 0 0 50px #ff0080;
+}
+
+/* ANIMACION DEL BOTON GUARDAR PROVEEDOR AL DAR CLIK */
+.guardar:active {
+    background-color: #86ed11;
+    color: black;
+    box-shadow: inset 0 0 10px black, 0 0 50px #ff0080, 0 0 50px #ff0080;
+}
+
+/* LOGO SOFTWARE */
+.logo {
+    height: 100px;
+    width: 130px;
+    margin: 20px 610px;
+    margin-top: -40px;
+}

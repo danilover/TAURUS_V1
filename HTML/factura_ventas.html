@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITULO DE LA PESTAÑA  -->
+    <title>FACTURA VENTAS</title>
+
+    <!-- CREACION LOGO PESTAÑA NAVEGADOR -->
+    <link rel="shortcut icon" href="../CSS/Logo_Software.jpg">
+
+    <!-- LINK FACTURA VENTAS CSS -->
+    <link rel="stylesheet" href="../CSS/factura_ventas.css">
+</head>
+
+<body>
+
+    <!-- FLECHA ATRAS -->
+    <div><a href="../HTML/menu_ventas.html" class="flecha">Atras</a></div>
+
+    <!-- ICONO IMPRIMIR FACTURA -->
+    <div class="imp_des"><a href="" class="imprimir"></a>
+
+        <!-- ICONO DESCARGAR FACTURA -->
+        <a href="" download="" class="descargar"></a>
+    </div>
+
+    <!-- CREACION DE FACTURA VENTAS -->
+    <form class="formulario">
+
+        <!-- TEXTO NOMBRE EMPRESA FACTURA -->
+        <h3>Electronica Universal GYM</h3>
+
+        <!-- TEXTOS FACTURA VENTAS -->
+        <p>Giovanna Gonzales<br>NIT 00000</p>
+        <P class="texto_derecha">Telefono: 00000 <br> calle 00 # 00-00</P>
+        <br><br>
+
+        <!-- CREACION TABLA FECHA -->
+        <input type="date" class="fecha" value="2022-07-18" readonly><br>
+
+        <!-- CREACION INPUT NUMERO DE FACTURA -->
+        <div>
+            <h2>N° de factura</h2>
+            <input type="number" class="n_Factura" value="10" min="1" max="10000" readonly>
+        </div><br><br><br><br>
+
+        <!-- CREACIÓN INPUT DATOS COMPRADOR -->
+        <!-- DIVISION IZQUIERDA -->
+        <div class="division_Izquierda"><label for="nombre" class="izquierda">Nombre</label> <input type="text"
+                class="nombre" value="Daniel Soto" readonly>
+            <br><br><br><br>
+            <label for="direccion" class="izquierda">Dirección</label> <input type="text" class="direccion"
+                value="Calle 49 #50-55" readonly>
+        </div>
+
+        <!-- DIVISION DERECHA -->
+        <div class="division_Derecha"><label for="nit" class="lab_Nit">NIT / C.C</label> <input type="number"
+                class="nit" value="1035624417" readonly>
+            <label for="telefono" class="derecha">Teléfono</label> <input type="text" class="telefono"
+                value="350 648 89 85" readonly>
+        </div><br><br><br><br><br><br>
+
+        <!-- CREACION TABLA -->
+        <table class="tabla">
+            <tr>
+                <th>Cantidad</th>
+                <th>Referencia</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2589A</td>
+                <td>$90.000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2960C</td>
+                <td>$200.000</td>
+            </tr>
+            <tr>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+            </tr>
+            <tr>
+                <td>x</td>
+                <td>x</td>
+                <td>x</td>
+            </tr>
+            <tr>
+                <td>xxx</td>
+                <td>xxxxxxxxxxxxxxxxxxxxx</td>
+                <td>xxxxxxxxxxx</td>
+            </tr>
+        </table>
+
+        <!-- PRECIO TOTAL -->
+        <label for="" class="total">TOTAL</label> <input type="text" class="nu_total" value="$290.000" readonly>
+
+        <!-- FIRMA DEL CLIENTE -->
+        <input type="text" class="firma" value="Daniel" readonly>
+        <br><br><br>
+        <label for="" class="texto_firma">Firma Comprador</label>
+    </form>
+
+    <!-- LOGO SOFTWARE -->
+    <img src="../CSS/Logo_Software.jpg" alt="Logo TAURUS_V1" class="logo">
+</body>
+
+</html>

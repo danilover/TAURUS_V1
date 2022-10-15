@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITULO DE LA PESTAÑA  -->
+    <title>GENERAR FACTURA</title>
+
+    <!-- CREACION LOGO PESTAÑA NAVEGADOR -->
+    <link rel="shortcut icon" href="../CSS/Logo_Software.jpg">
+
+    <!-- LINK FACTURA VENTAS CSS -->
+    <link rel="stylesheet" href="../CSS/generar_factura_ventas.css">
+</head>
+
+<body>
+
+    <!-- FLECHA ATRAS -->
+    <div><a href="../HTML/menu_ventas.html" class="flecha">Atras</a></div>
+
+    <!-- ICONO IMPRIMIR FACTURA -->
+    <div class="imp_des"><a href="" class="imprimir"></a>
+
+        <!-- ICONO DESCARGAR FACTURA -->
+        <a href="" download="" class="descargar"></a>
+    </div>
+
+    <!-- CREACION DE FACTURA VENTAS -->
+    <form class="formulario">
+
+        <!-- TEXTO NOMBRE EMPRESA FACTURA VENTAS -->
+        <h3>Electronica Universal GYM</h3>
+
+        <!-- TEXTOS FACTURA VENTAS -->
+        <p>Giovanna Gonzales<br>NIT 00000</p>
+        <P class="texto_derecha">Telefono: 00000 <br> calle 00 # 00-00</P>
+        <br><br>
+
+        <!-- CREACION TABLA FECHA -->
+        <input type="date" class="fecha"><br>
+
+        <!-- CREACION INPUT NUMERO DE FACTURA VENTAS -->
+        <div>
+            <h2>N° de factura</h2>
+            <input type="number" class="n_Factura" placeholder="N°" min="1" max="10000">
+        </div><br><br><br><br>
+
+        <!-- CREACIÓN INPUT DATOS COMPRADOR -->
+        <!-- DIVISION IZQUIERDA -->
+        <div class="division_Izquierda"><label for="nombre" class="izquierda">Nombre</label> <input type="text"
+                class="nombre">
+            <br><br><br><br>
+            <label for="direccion" class="izquierda">Dirección</label> <input type="text" class="direccion">
+        </div>
+
+        <!-- DIVISION DERECHA -->
+        <div class="division_Derecha"><label for="nit" class="lab_Nit">NIT / C.C</label> <input type="number"
+                class="nit">
+            <label for="telefono" class="derecha">Teléfono</label> <input type="text" class="telefono">
+        </div><br><br><br><br><br><br>
+
+        <!-- CREACION TABLA -->
+        <table class="tabla">
+            <tr>
+                <th>Cantidad</th>
+                <th>Referencia</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td><input type="text" class="tab"></td>
+                <td><input type="text" class="tab"></td>
+                <td><input type="text" class="tab"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="tab"></td>
+                <td><input type="text" class="tab"></td>
+                <td><input type="text" class="tab"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="tab"></td>
+                <td><input type="text" class="tab"></td>
+                <td><input type="text" class="tab"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="tab"></td>
+                <td><input type="text" class="tab"></td>
+                <td><input type="text" class="tab"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="tab"></td>
+                <td><input type="text" class="tab"></td>
+                <td><input type="text" class="tab"></td>
+            </tr>
+        </table>
+
+        <!-- PRECIO TOTAL -->
+        <label for="" class="total">TOTAL</label> <input type="number" class="nu_total">
+
+        <!-- FIRMA DEL CLIENTE -->
+        <input type="text" class="firma">
+        <br><br><br>
+        <label for="" class="texto_firma">Firma Comprador</label>
+    </form>
+    <br><br><br>
+
+    <!-- BOTON GENERAR FACTURA -->
+    <a href="../HTML/menu_ventas.html" class="generar">Generar Factura</a>
+
+    <!-- LOGO SOFTWARE -->
+    <img src="../CSS/Logo_Software.jpg" alt="Logo TAURUS_V1" class="logo">
+</body>
+
+</html>

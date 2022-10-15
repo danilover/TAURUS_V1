@@ -1,0 +1,159 @@
+/* SELECTOR UNIVERSAL */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+*
+
+/* QUITAR SCROLL O BARRA DE NAVEGACION VERTICAL */
+body {
+    overflow-x: hidden;
+}
+
+/* FLECHA ATRAS */
+.flecha {
+    display: block;
+    width: 90px;
+    font-family: 'Impact';
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding: 8px 30px;
+    padding-right: 5px;
+    text-decoration: none;
+    background: transparent;
+    margin: 1px 1px;
+    margin-top: -10px;
+    background-image: url(../CSS/icono_flecha_atras.webp);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 1px
+}
+
+/* TEXTO RECUPERAR CONTRASEÑA */
+h2 {
+    font-size: 40px;
+    font-family: 'Impact';
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* FORMULARIO */
+.formulario {
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    background-color: #18eedb;
+    padding: 50px;
+    width: 400px;
+    height: 300px;
+    margin: 20px 410px;
+    border: 4px solid black;
+    margin-top: 10px;
+}
+
+/* TEXTO NUEVA CONTRASEÑA */
+.contraseñalab1 {
+    font-size: 19px;
+    margin-right: 15%;
+}
+
+/* INPUT NUEVA CONTRASEÑA */
+.contraseñainp1 {
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 175px;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10px;
+    outline: none;
+}
+
+/* TEXTO REPITA CONTRASEÑA */
+.contraseñalab2 {
+    font-size: 19px;
+    margin-right: 10%;
+}
+
+/* INPUT REPITA CONTRASEÑA */
+.contraseñainp2 {
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 175px;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+    outline: none;
+}
+
+/* TEXTO INTRODUCIR CODIGO */
+.texto {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* TEXTO CODIGO */
+.codigo {
+    font-size: 19px;
+    margin: 0px 30px;
+}
+
+/* INPUT CODIGO  */
+.codigoinp {
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0px 40px;
+    outline: none;
+}
+
+/* BOTON ENVIAR */
+.boton {
+    display: block;
+    width: 110px;
+    font-family: 'Impact';
+    font-size: 25px;
+    color: black;
+    border-radius: 15px;
+    padding: 10px 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    background: #356f75;
+    border: 2px solid black;
+    margin: 1px 135px;
+    text-align: left;
+    background-image: url(../CSS/icono_flecha_enviar.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 115px
+}
+
+/* ANIMACION DEL BOTON ENVIAR AL PASAR EL CURSOR */
+.boton:hover {
+    background-color: blue;
+    border: 2px solid black;
+    color: black;
+    box-shadow: inset 0 0 10px black, 0 0 50px #ff0080, 0 0 50px #ff0080;
+}
+
+/* ANIMACION DEL BOTON ENVIAR AL DAR CLIK */
+.boton:active {
+    background-color: #86ed11;
+    color: black;
+    box-shadow: inset 0 0 10px black, 0 0 50px #ff0080, 0 0 50px #ff0080;
+}
+
+/* LOGO SOFTWARE */
+.logo {
+    height: 100px;
+    width: 130px;
+    margin: 10px 610px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITULO DE LA PESTAÑA  -->
+    <title>PERFIL</title>
+
+    <!-- CREACION LOGO PESTAÑA NAVEGADOR -->
+    <link rel="shortcut icon" href="../CSS/Logo_Software.jpg">
+
+    <!-- LINK PERFIL USUARIO CSS -->
+    <link rel="stylesheet" href="../CSS/Ventana_modal_deshabilitar.css">
+</head>
+
+<body>
+
+    <!-- TEXTO PERFIL USUARIO -->
+    <h2>Perfil Usuario</h2>
+    <br>
+
+    <!-- FORMULARIO PERFIL USUARIO -->
+    <div class="formulario">
+        <form autocomplete="off">
+
+            <!-- IMAGEN DEL USUARIO -->
+            <img src="../CSS/icono_perfil_usuario.webp" alt="Imagen Perfil Usuario" class="perfil_img">
+            <br><br><br>
+
+            <!-- CREACION TEXTO NOMBRE USUARIO -->
+            <div><strong><label for="" class="nomusuario">Nombre de usuario</label></strong>
+
+                <!-- CREACION INPUT USUARIO -->
+                <input type="text" class="username" required maxlength="12" readonly value="Administrador">
+            </div>
+            <br><br>
+
+            <!-- CREACION TEXTO CONTRASEÑA -->
+            <div><strong><label for="" class="crecontraseña">Contraseña</label></strong>
+
+                <!-- CREACION INPUT CONTRASEÑA -->
+                <input type="password" class="contraseña" required maxlength="15" readonly value="123456789">
+            </div>
+            <br><br>
+
+            <!-- CREACION TEXTO CORREO ELECTRONICO -->
+            <div><strong><label for="" class="correo">Correo electronico</label></strong>
+
+                <!-- CREACION INPUT CORREO ELECTRONICO -->
+                <input type="email" class="inputcorreo" required maxlength="25" readonly
+                    value="Administrador@gmail.com">
+            </div>
+            <br><br>
+
+            <!-- CREACION TEXTO CARGOS -->
+            <strong><label for="" class="texcargos">Seleccione Cargo</label></strong>
+
+            <!-- CREACION LISTA CARGOS -->
+            <select class="cargos">
+                <option value="">Gerente</option>
+                <option value="" disabled>Secretario</option>
+                <option value="" disabled>Jefe de bodega</option>
+                <option value="" disabled>Vendedor</option>
+            </select>
+            <br><br><br>
+
+            <!-- BOTON EDITAR DATOS USUARIO -->
+            <div><a class="boton" href="">Editar Perfil</a>
+            </div><br><br><br>
+
+            <!-- BOTON DESHABILITAR CUENTA -->
+            <div><a href="" class="desactivar">Deshabilitar cuenta</a></div>
+        </form>
+    </div>
+
+    <!-- CREACION ADVERTENCIA ACEPTAR / CANCELAR -->
+    <div class="ventana_mod">
+        <h3>¿¡Deshabilitar cuenta!?</h3>
+        <a href="../HTML/Inicio_sesion_Registrarse.html" class="si">Aceptar</a>
+        <a href="../HTML/perfil_usuario.html" class="no">Cancelar</a>
+    </div>
+
+    <!-- LOGO SOFTWARE -->
+    <img src="../CSS/Logo_Software.jpg" alt="Logo TAURUS_V1" class="logo">
+</body>
+
+</html>
